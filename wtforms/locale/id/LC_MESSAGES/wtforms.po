@@ -31,20 +31,20 @@ msgstr ""
 #, python-format
 msgid "Field must be at least %(min)d character long."
 msgid_plural "Field must be at least %(min)d characters long."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bagian ini harus minimal %(min)d panjang karakter"
+msgstr[1] "Bagian ini harus minimal %(min)d panjang karakter"
 
 #: wtforms/validators.py:99
 #, python-format
 msgid "Field cannot be longer than %(max)d character."
 msgid_plural "Field cannot be longer than %(max)d characters."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bagian ini tidak boleh lebih panjang dari  %(max)d karakter"
+msgstr[1] "Bagian ini tidak boleh lebih panjang dari  %(max)d karakter"
 
 #: wtforms/validators.py:102
 #, python-format
 msgid "Field must be between %(min)d and %(max)d characters long."
-msgstr ""
+msgstr "Bagian ini harus antara %(min)d dan %(max)d panjang karakter"
 
 #: wtforms/validators.py:138
 #, python-format
@@ -63,7 +63,7 @@ msgstr ""
 
 #: wtforms/validators.py:198 wtforms/validators.py:233
 msgid "This field is required."
-msgstr ""
+msgstr "Bagian ini diperlukan"
 
 #: wtforms/validators.py:264
 msgid "Invalid input."
@@ -71,7 +71,7 @@ msgstr ""
 
 #: wtforms/validators.py:286
 msgid "Invalid email address."
-msgstr ""
+msgstr "Alamat Email tidak valid"
 
 #: wtforms/validators.py:318
 msgid "Invalid IP address."
@@ -141,7 +141,7 @@ msgstr ""
 
 #: wtforms/ext/sqlalchemy/validators.py:34
 msgid "Already exists."
-msgstr ""
+msgstr "Sudah ada"
 
 #: wtforms/fields/core.py:449
 msgid "Invalid Choice: could not coerce"
@@ -158,7 +158,7 @@ msgstr ""
 
 #: wtforms/fields/core.py:572
 msgid "Not a valid integer value"
-msgstr ""
+msgstr "Bukan nilai integer yang benar"
 
 #: wtforms/fields/core.py:638
 msgid "Not a valid decimal value"

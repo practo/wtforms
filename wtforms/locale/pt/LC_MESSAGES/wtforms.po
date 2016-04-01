@@ -32,15 +32,15 @@ msgstr "O campo deve ser igual a %(other_name)s."
 #, python-format
 msgid "Field must be at least %(min)d character long."
 msgid_plural "Field must be at least %(min)d characters long."
-msgstr[0] "O campo deve ter pelo menos %(min)d caracteres."
-msgstr[1] "Os campos devem ter pelo menos %(min)d caracteres."
+msgstr[0] "O campo deve ter ao menos %(min)d caractres."
+msgstr[1] "O campo deve ter ao menos %(min)d caractres."
 
 #: wtforms/validators.py:99
 #, python-format
 msgid "Field cannot be longer than %(max)d character."
 msgid_plural "Field cannot be longer than %(max)d characters."
-msgstr[0] "O campo não pode ter mais do que %(max)d caracteres."
-msgstr[1] "Os campos não podem ter mais do que %(max)d caracteres."
+msgstr[0] "O campo não pode ser maior que %(max)d caracteres."
+msgstr[1] "O campo não pode ser maior que %(max)d caracteres."
 
 #: wtforms/validators.py:102
 #, python-format
@@ -64,7 +64,7 @@ msgstr "O valor tem que ser entre %(min)s e %(max)s."
 
 #: wtforms/validators.py:198 wtforms/validators.py:233
 msgid "This field is required."
-msgstr "Campo obrigatório."
+msgstr "Este campo é obrigatório"
 
 #: wtforms/validators.py:264
 msgid "Invalid input."
@@ -72,7 +72,7 @@ msgstr "Entrada inválida."
 
 #: wtforms/validators.py:286
 msgid "Invalid email address."
-msgstr "Email inválido."
+msgstr "Endereço de e-mail inválido."
 
 #: wtforms/validators.py:318
 msgid "Invalid IP address."
